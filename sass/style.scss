@@ -1,0 +1,50 @@
+@import "nullstyle.scss";
+
+.wrap {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .conteiner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    }
+
+.logo-title-header, .contact-header{
+    display: flex;
+    align-items: center;
+}
+
+.logo-title-header .logo{
+    padding-right:35px ;
+}
+
+.logo-title-header .title{
+max-width: 190px;
+color: #2E3135;
+font-weight: 500;
+font-size: 20px;
+line-height: 130%;
+border-left: solid 1.5px;
+padding-left: 30px;
+}
+
+.contact-header a{
+ padding-left: 15px;
+ 
+}
+.contact-header a:first-child {
+        padding: 0;
+    }
+
+.contact-header .phone{
+ padding: 12px;
+ color: #2E3135;
+ font-size: 20px;
+ line-height: 130%;
+ text-transform: uppercase;
+}
+
