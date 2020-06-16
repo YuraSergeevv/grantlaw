@@ -76,7 +76,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.wrap {
+h1 {
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #2E3135;
+}
+
+.conteiner {
   max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
@@ -132,4 +140,28 @@ header .conteiner {
   font-size: 20px;
   line-height: 130%;
   text-transform: uppercase;
+}
+
+.main-block {
+  background-image: url("/img/image-first-screen.png");
+  height: 600px;
+  background-size: cover;
+  background-position: 0;
+}
+
+.title-main-block {
+  max-width: 680px;
+  padding: 120px 10px 0 10px;
+}
+
+.more-text {
+  font-size: 24px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #2E3135;
+  padding: 90px 10px 15px 10px;
+}
+
+.more-arrow {
+  padding-left: 95px;
 }
